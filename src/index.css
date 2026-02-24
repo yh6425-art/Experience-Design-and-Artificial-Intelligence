@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: "Press Start 2P", system-ui, sans-serif;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui, sans-serif;
+  background-color: #1a1a2e;
+  color: #e2e8f0;
+  /* Pixelated rendering */
+  image-rendering: pixelated;
+}
+
+/* Custom blocky borders for pixel art feel */
+.pixel-border {
+  box-shadow: 
+    inset -4px -4px 0px 0px rgba(0,0,0,0.3),
+    inset 4px 4px 0px 0px rgba(255,255,255,0.3);
+}
+
+.pixel-border-pressed {
+  box-shadow: 
+    inset 4px 4px 0px 0px rgba(0,0,0,0.3),
+    inset -4px -4px 0px 0px rgba(255,255,255,0.3);
+}
