@@ -1,0 +1,5 @@
+{
+  "name": "Pixel 2048",
+  "description": "A retro pixel-art style 2048 game.",
+  "requestFramePermissions": []
+}
